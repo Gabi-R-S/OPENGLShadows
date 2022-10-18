@@ -134,6 +134,9 @@
   <ItemGroup>
     <None Include="FullScreenQuadShader.frag" />
     <None Include="FullScreenQuadShader.vert" />
+    <None Include="Housies.dae">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="Light.frag" />
     <None Include="Light.vert" />
     <None Include="Mesh.frag" />
@@ -144,9 +147,6 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="README.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Object Include="Housies.obj" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
