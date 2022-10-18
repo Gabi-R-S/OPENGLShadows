@@ -215,7 +215,7 @@ struct MeshData
 //returns mesh data using assimp on a list of files
 MeshData GetAllMeshData()
 {
-	const std::string files [] = {"Housies.obj"};
+	const std::string files [] = {"Housies.dae"};
 	// Create an instance of the Importer class
 	Assimp::Importer importer;
 	unsigned int lastIndex=0;

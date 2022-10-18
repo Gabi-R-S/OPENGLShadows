@@ -38,6 +38,9 @@
     <None Include="FullScreenQuadShader.vert">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="Housies.dae">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Palette1.png">
@@ -48,10 +51,5 @@
     <Text Include="README.txt">
       <Filter>Resource Files</Filter>
     </Text>
-  </ItemGroup>
-  <ItemGroup>
-    <Object Include="Housies.obj">
-      <Filter>Resource Files</Filter>
-    </Object>
   </ItemGroup>
 </Project>
